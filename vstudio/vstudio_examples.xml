@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<examples>
+	<databases>
+		<database type="vdb" name="valentina_sakila">
+			<tooltips>
+				<tooltip language="en" value="Sakila database ported to Valentina DB model, uses Foreign Key links between tables, like other relational databases"/>
+			</tooltips>
+			<versions>
+				<version min_version="5.0" link="./vdb/valentina_sakila.vdb.zip"/>
+			</versions>
+		</database>
+		<database type="vdb" name="valentina_sakila_bl">
+			<tooltips>
+				<tooltip language="en" value="Sakila database ported to Valentina DB model, uses Binary Links between tables"/>
+			</tooltips>	
+			<versions>
+				<version min_version="5.0" link="./vdb/valentina_sakila_bl.vdb.zip"/>
+			</versions>
+		</database>
+		<database type="vdb" name="valentina_sakila_objptr">
+			<tooltips>
+				<tooltip language="en" value="Sakila database ported to Valentina DB model, uses ObjectPtr links between tables"/>
+			</tooltips>	
+			<versions>
+				<version min_version="5.0" link="./vdb/valentina_sakila_objptr.vdb.zip"/>
+			</versions>
+		</database>
+
+		<database type="sqlite" name="sqlite_sakila">
+			<tooltips>
+				<tooltip language="en" value="Sakila database ported to SQLite DB model"/>
+			</tooltips>	
+			<versions>
+				<version min_version="5.0" link="./sqlite/sqlite_sakila.sqlite.zip"/>
+			</versions>
+		</database>
+
+	</databases>
+	<projects>
+		<project name="valentina_sakila_reports" datasource="valentina_sakila" datasource_type="vdb">
+			<tooltips>
+				<tooltip language="en" value="Valentina Reports created on the basis of Sakila database ported to Valentina DB model"/>
+			</tooltips>
+			<versions>
+				<version  min_version="5.0" link = "./vsp/valentina_sakila_reports.vsp.zip"/>
+			</versions>
+		</project>
+	</projects>
+</examples>
