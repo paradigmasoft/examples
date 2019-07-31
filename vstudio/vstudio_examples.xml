@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <examples>
 	<databases>
-		<database type="vdb" name="valentina_sakila">
+		<database type="vdb" name="valentina_sakila_using_foreign_key">
 			<tooltips>
 				<tooltip language="en" value="Sakila database ported to Valentina DB model, uses Foreign Key links between tables, like other relational databases"/>
 			</tooltips>
 			<versions>
-				<version min_version="5.0" link="./vdb/valentina_sakila.vdb.zip"/>
+				<version min_version="5.0" link="./vdb/valentina_sakila_using_foreign_key.vdb.zip"/>
 			</versions>
 		</database>
-		<database type="vdb" name="valentina_sakila_bl">
+		<database type="vdb" name="valentina_sakila_using_binarylink">
 			<tooltips>
 				<tooltip language="en" value="Sakila database ported to Valentina DB model, uses Binary Links between tables"/>
 			</tooltips>	
 			<versions>
-				<version min_version="5.0" link="./vdb/valentina_sakila_bl.vdb.zip"/>
+				<version min_version="5.0" link="./vdb/valentina_sakila_using_binarylink.vdb.zip"/>
 			</versions>
 		</database>
-		<database type="vdb" name="valentina_sakila_objptr">
+		<database type="vdb" name="valentina_sakila_using_objectptr">
 			<tooltips>
 				<tooltip language="en" value="Sakila database ported to Valentina DB model, uses ObjectPtr links between tables"/>
 			</tooltips>	
 			<versions>
-				<version min_version="5.0" link="./vdb/valentina_sakila_objptr.vdb.zip"/>
+				<version min_version="5.0" link="./vdb/valentina_sakila_using_objectptr.vdb.zip"/>
 			</versions>
 		</database>
 
