@@ -37,7 +37,7 @@
 
 	</databases>
 	<projects>
-		<project name="valentina_sakila_reports" datasource="valentina_sakila" datasource_type="vdb">
+		<project name="valentina_sakila_reports" datasource="valentina_sakila_using_foreign_key" datasource_type="vdb">
 			<tooltips>
 				<tooltip language="en" value="Valentina Reports created on the basis of Sakila database ported to Valentina DB model"/>
 			</tooltips>
