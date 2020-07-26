@@ -35,7 +35,7 @@
 			</versions>
 		</database>
         
-        <database type="vdb" name="car_catalog_db">
+        <database type="vdb" name="car_catalog_db" optional="true">
             <tooltips>
                 <tooltip language="en" value="Database with source data for car_catalog example project"/>
             </tooltips>
@@ -55,7 +55,7 @@
 			</versions>
 		</project>
         
-        <project name="car_catalog" datasource="car_catalog" datasource_type="vdb">
+        <project name="car_catalog" datasource="car_catalog_db" datasource_type="vdb">
             <tooltips>
                 <tooltip language="en" value="Valentina Reports and Valentina Forms to fill and print car catalogs"/>
             </tooltips>
