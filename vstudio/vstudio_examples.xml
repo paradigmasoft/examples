@@ -40,7 +40,7 @@
                 <tooltip language="en" value="Database with source data for car_catalog example project"/>
             </tooltips>
             <versions>
-                <version min_version="10.4" link="./vdb/car_catalog_db.vdb.zip"/>
+                <version min_version="10.5" link="./vdb/car_catalog_db.vdb.zip"/>
             </versions>
         </database>
 
@@ -60,7 +60,7 @@
                 <tooltip language="en" value="Valentina Reports and Valentina Forms to fill and print car catalogs"/>
             </tooltips>
             <versions>
-                <version  min_version="10.4" link = "./vsp/car_catalog.vsp.zip"/>
+                <version  min_version="10.5" link = "./vsp/car_catalog.vsp.zip"/>
             </versions>
         </project>
 	</projects>
