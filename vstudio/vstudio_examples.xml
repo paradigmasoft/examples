@@ -34,6 +34,15 @@
 				<version min_version="5.0" link="./sqlite/sqlite_sakila.sqlite.zip"/>
 			</versions>
 		</database>
+        
+        <database type="vdb" name="car_catalog_db" optional="true">
+            <tooltips>
+                <tooltip language="en" value="Database with source data for car_catalog example project"/>
+            </tooltips>
+            <versions>
+                <version min_version="10.5" link="./vdb/car_catalog_db.vdb.zip"/>
+            </versions>
+        </database>
 
 	</databases>
 	<projects>
@@ -45,5 +54,14 @@
 				<version  min_version="5.0" link = "./vsp/valentina_sakila_reports.vsp.zip"/>
 			</versions>
 		</project>
+        
+        <project name="car_catalog" datasource="car_catalog_db" datasource_type="vdb">
+            <tooltips>
+                <tooltip language="en" value="Valentina Reports and Valentina Forms to fill and print car catalogs"/>
+            </tooltips>
+            <versions>
+                <version  min_version="10.5" link = "./vsp/car_catalog.vsp.zip"/>
+            </versions>
+        </project>
 	</projects>
 </examples>
