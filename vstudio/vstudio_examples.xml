@@ -63,5 +63,14 @@
                 <version  min_version="10.5" link = "./vsp/car_catalog.vsp.zip"/>
             </versions>
         </project>
+        
+         <project name="schema_report" datasource="valentina_sakila_using_foreign_key" datasource_type="vdb">
+            <tooltips>
+                <tooltip language="en" value="Valentina Reports and Valentina Forms to print schema documentation"/>
+            </tooltips>
+            <versions>
+                <version  min_version="13.5" link = "./vsp/schema_report.vsp.zip"/>
+            </versions>
+        </project>
 	</projects>
 </examples>
