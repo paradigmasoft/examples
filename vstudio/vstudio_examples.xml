@@ -40,7 +40,7 @@
 				<tooltip language="en" value="Sakila database ported to DuckDB model"/>
 			</tooltips>	
 			<versions>
-				<version min_version="14.5" link="./duckdb/duckdb_sakila.duckdb.zip"/>
+				<version min_version="14.1" link="./duckdb/duckdb_sakila.duckdb.zip"/>
 			</versions>
 		</database>
         
@@ -64,12 +64,21 @@
 			</versions>
 		</project>
         
-        <project name="car_catalog" datasource="car_catalog_db" datasource_type="vdb">
+        <project name="car_catalog_js" datasource="car_catalog_db" datasource_type="vdb">
             <tooltips>
-                <tooltip language="en" value="Valentina Reports and Valentina Forms to fill and print car catalogs"/>
+                <tooltip language="en" value="Valentina Reports and Valentina Forms to fill and print car catalogs using JavaScript"/>
             </tooltips>
             <versions>
-                <version  min_version="10.5" link = "./vsp/car_catalog.vsp.zip"/>
+                <version  min_version="14" link = "./vsp/car_catalog_js.vsp.zip"/>
+            </versions>
+        </project>
+        
+        <project name="car_catalog_python" datasource="car_catalog_db" datasource_type="vdb">
+            <tooltips>
+                <tooltip language="en" value="Valentina Reports and Valentina Forms to fill and print car catalogs using Python"/>
+            </tooltips>
+            <versions>
+                <version  min_version="14" link = "./vsp/car_catalog_python.vsp.zip"/>
             </versions>
         </project>
         
