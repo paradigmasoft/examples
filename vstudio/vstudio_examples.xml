@@ -34,6 +34,15 @@
 				<version min_version="5.0" link="./sqlite/sqlite_sakila.sqlite.zip"/>
 			</versions>
 		</database>
+		
+		<database type="duckdb" name="duckdb_sakila">
+			<tooltips>
+				<tooltip language="en" value="Sakila database ported to DuckDB model"/>
+			</tooltips>	
+			<versions>
+				<version min_version="14.5" link="./duckdb/duckdb_sakila.duckdb.zip"/>
+			</versions>
+		</database>
         
         <database type="vdb" name="car_catalog_db" optional="true">
             <tooltips>
