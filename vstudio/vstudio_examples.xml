@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <examples>
 	<databases>
-		<database type="vdb" name="valentina_sakila_using_foreign_key">
+		<database type="valentina" name="valentina_sakila_using_foreign_key">
 			<tooltips>
 				<tooltip language="en" value="Sakila database ported to Valentina DB model, uses Foreign Key links between tables, like other relational databases"/>
 			</tooltips>
@@ -9,7 +9,7 @@
 				<version min_version="5.0" link="./vdb/valentina_sakila_using_foreign_key.vdb.zip"/>
 			</versions>
 		</database>
-		<database type="vdb" name="valentina_sakila_using_binarylink">
+		<database type="valentina" name="valentina_sakila_using_binarylink">
 			<tooltips>
 				<tooltip language="en" value="Sakila database ported to Valentina DB model, uses Binary Links between tables"/>
 			</tooltips>	
@@ -17,7 +17,7 @@
 				<version min_version="5.0" link="./vdb/valentina_sakila_using_binarylink.vdb.zip"/>
 			</versions>
 		</database>
-		<database type="vdb" name="valentina_sakila_using_objectptr">
+		<database type="valentina" name="valentina_sakila_using_objectptr">
 			<tooltips>
 				<tooltip language="en" value="Sakila database ported to Valentina DB model, uses ObjectPtr links between tables"/>
 			</tooltips>	
@@ -44,7 +44,7 @@
 			</versions>
 		</database>
         
-        <database type="vdb" name="car_catalog_db" optional="true">
+        <database type="valentina" name="car_catalog_db" optional="true">
             <tooltips>
                 <tooltip language="en" value="Database with source data for car_catalog example project"/>
             </tooltips>
@@ -55,7 +55,7 @@
 
 	</databases>
 	<projects>
-		<project name="valentina_sakila_reports" datasource="valentina_sakila_using_foreign_key" datasource_type="vdb">
+		<project name="valentina_sakila_reports" datasource="valentina_sakila_using_foreign_key" datasource_type="valentina">
 			<tooltips>
 				<tooltip language="en" value="Valentina Reports created on the basis of Sakila database ported to Valentina DB model"/>
 			</tooltips>
@@ -64,7 +64,7 @@
 			</versions>
 		</project>
         
-        <project name="car_catalog_js" datasource="car_catalog_db" datasource_type="vdb">
+        <project name="car_catalog_js" datasource="car_catalog_db" datasource_type="valentina">
             <tooltips>
                 <tooltip language="en" value="Valentina Reports and Valentina Forms to fill and print car catalogs using JavaScript"/>
             </tooltips>
@@ -73,7 +73,7 @@
             </versions>
         </project>
         
-        <project name="car_catalog_python" datasource="car_catalog_db" datasource_type="vdb">
+        <project name="car_catalog_python" datasource="car_catalog_db" datasource_type="valentina">
             <tooltips>
                 <tooltip language="en" value="Valentina Reports and Valentina Forms to fill and print car catalogs using Python"/>
             </tooltips>
@@ -82,7 +82,7 @@
             </versions>
         </project>
         
-         <project name="schema_report" datasource="valentina_sakila_using_foreign_key" datasource_type="vdb">
+         <project name="schema_report" datasource="valentina_sakila_using_foreign_key" datasource_type="valentina">
             <tooltips>
                 <tooltip language="en" value="Valentina Reports and Valentina Forms to print schema documentation"/>
             </tooltips>
