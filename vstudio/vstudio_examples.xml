@@ -53,6 +53,15 @@
             </versions>
         </database>
 
+        <database type="vdb" name="mailmerge">
+            <tooltips>
+                <tooltip language="en" value="Database with source data for mail merge example project"/>
+            </tooltips>
+            <versions>
+                <version min_version="16.5.1" link="./vdb/mailmerge.vdb.zip"/>
+            </versions>
+        </database>
+
 	</databases>
 	<projects>
 		<project name="valentina_sakila_reports" datasource="valentina_sakila_using_foreign_key" datasource_type="vdb">
@@ -88,6 +97,15 @@
             </tooltips>
             <versions>
                 <version  min_version="13.5" link = "./vsp/schema_report.vsp.zip"/>
+            </versions>
+        </project>
+
+        <project name="mailmerge" datasource="mailmerge" datasource_type="vdb">
+            <tooltips>
+                <tooltip language="en" value="alentina Forms demonstrating mail merge functionality"/>
+            </tooltips>
+            <versions>
+                <version  min_version="16.5.1" link = "./vsp/mailmerge.vsp.zip"/>
             </versions>
         </project>
 	</projects>
