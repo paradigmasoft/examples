@@ -43,6 +43,24 @@
 				<version min_version="14.5" link="./duckdb/duckdb_sakila.duckdb.zip"/>
 			</versions>
 		</database>
+
+		<database type="parquet" name="parquet_sakila">
+			<tooltips>
+				<tooltip language="en" value="Sakila database exported as a folder of Apache Parquet files"/>
+			</tooltips>
+			<versions>
+				<version min_version="17.5" link="./parquet/parquet_sakila.parquet.zip"/>
+			</versions>
+		</database>
+
+		<database type="parquet" name="house-price">
+			<tooltips>
+				<tooltip language="en" value="House price dataset in Apache Parquet format"/>
+			</tooltips>
+			<versions>
+				<version min_version="17.5" link="./parquet/house-price.parquet.zip"/>
+			</versions>
+		</database>
         
         <database type="valentina" name="car_catalog_db" optional="true">
             <tooltips>
