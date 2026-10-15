@@ -114,7 +114,7 @@
                 <tooltip language="en" value="Valentina Reports and Valentina Forms to print schema documentation"/>
             </tooltips>
             <versions>
-                <version  min_version="13.5" link = "./vsp/schema_report.vsp.zip"/>
+                <version  min_version="18.0" link = "./vsp/schema_report.vsp.zip"/>
             </versions>
         </project>
 
